@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+/* User-Profile-Image */
+
+.img-container {
+    width: 60px;
+    height: 60px;
+}
+
+.profile-pic {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+/* User-Friend's */
+
+.Friend-Name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666666;
+}
+
+.div.Friend-Name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333333;
+}
+
+.Friend-Name.dark-mode {
+    color: #C2C2C2;
+}
+
+div.Friend-Name:hover {
+    cursor: pointer;
+    color: #E6FBFF;
+}
+
+.Friend-occupation {
+    font-family: "Rubik", sans-serif;
+    font-size: 0.75rem;
+    color: #a3a3a3;
+}
+
+.icon-btn {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    font-size: 1.2857142857142856rem;
+    padding: 8px;
+    border-radius: 50%;
+    overflow: visible;
+    color: rgba(0, 0, 0, 0.54);
+    background-color: #e6fbff;
+    padding: 0.6rem;
+}
+
+.icon-btn.dark-mode {
+    background-color: #00353F;
+}
+
+svg.icon-svg {
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 1.2857142857142856rem;
+    color: #006b7d;
+}
+
+.icon-svg.dark-mode {
+    color: #99eefd;
+}

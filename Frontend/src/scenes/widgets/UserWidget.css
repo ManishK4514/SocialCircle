@@ -1,0 +1,144 @@
+:root {
+    /* Primary colors */
+    --primary-dark: #00353f;
+    --primary-main: #00d5fa;
+    --primary-light: #d0f5fb;
+
+    /* Neutral colors */
+    --neutral-dark: #e0e0e0;
+    --neutral-main: #c2c2c2;
+    --neutral-medium-main: #a3a3a3;
+    --neutral-medium: #858585;
+    --neutral-light: #333333;
+
+    /* Background colors */
+    --background-default: #000000;
+    --background-alt: #1a1a1a;
+
+    /* main color */
+    --main: #666666;
+}
+
+.user-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--neutral-light);
+}
+
+.user-name.dark-mode {
+    color: #e0e0e0;
+}
+
+.user-name:hover {
+    color: var(--primary-light);
+    cursor: pointer;
+}
+
+.divider {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+.divider.dark-mode {
+    border-color: rgba(243, 241, 241, 0.12);
+}
+
+/* Second Row */
+.secondrow-container {
+    padding: 1rem 0;
+}
+
+.location-div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.occupation-div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* THIRD ROW */
+
+.profile-stats-container {
+    padding: 1rem 0;
+}
+
+.stat-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    color: #a3a3a3;
+}
+
+.stat-value {
+    font-weight: 500;
+}
+
+.stat-value.dark-mode {
+    color: #e0e0e0;
+}
+
+.main-color {
+    color: var(--main);
+}
+
+/* Fourth ROW */
+
+.fourth-container {
+    padding: 1rem 0;
+}
+
+.container-heading {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--main);
+}
+
+.twitter-div,
+.linkedin-div {
+    color: var(--main);
+    font-weight: 500;
+}
+
+.user-dashboard-icon {
+    color: var(--main);
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    flex-shrink: 0;
+    font-size: 1.2857142857142856rem;
+}
+.user-dashboard-icon.dark-mode {
+    color: #e0e0e0;
+}
+
+.Row-icons {
+    color: var(--main);
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentColor;
+    flex-shrink: 0;
+    font-size: 1.875rem;
+}
+
+.Row-icons.dark-mode {
+    color: #c2c2c2;
+}

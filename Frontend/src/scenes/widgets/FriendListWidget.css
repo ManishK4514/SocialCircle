@@ -1,0 +1,16 @@
+.friend-heading {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 1.5rem;
+}
+
+.friend-heading.dark-mode {
+    color: #e0e0e0;
+}
+
+.friend-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

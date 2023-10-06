@@ -1,0 +1,44 @@
+.header {
+    width: 100%;
+    background-color: #fff;
+    padding: 1px 1%;
+    text-align: center;
+}
+
+.header.dark-mode {
+    background-color: #1A1A1A;
+}
+
+.header h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #00D5FA;
+}
+
+.form-div {
+    width: 50%;
+    padding: 1.0rem 2rem;
+    margin: 1rem auto;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.form-div.dark-mode {
+    background-color: #1A1A1A;
+}
+
+.form-div h2 {
+    font-weight: 500;
+    font-size: 1.00rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .form-div {
+        width: 90%;
+    }
+}

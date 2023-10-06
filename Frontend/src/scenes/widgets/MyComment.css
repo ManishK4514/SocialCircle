@@ -1,0 +1,146 @@
+.comment-input {
+    width: 100%;
+}
+
+.comment-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: #333333;
+}
+
+.comment-icon.dark-mode {
+    color: #99eefd;
+}
+
+.comment-icon-btn {
+    border-radius: 50%;
+    background-color: #e6fbff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.comment-icon-btn.dark-mode {
+    background-color: #00353f;
+}
+
+.comment-discription-input {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    padding: 4px 0 5px;
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0;
+    display: block;
+    min-width: 0;
+    width: 100%;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+}
+
+.comment-discription-input::placeholder {
+    color: #a3a3a3;
+}
+
+.comment-discription-input:focus {
+    outline: none;
+    border: none;
+}
+
+.profile-picture-comment {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.comment-box {
+    padding: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.comment-box.dark-mode {
+    background-color: #1A1A1A;
+    box-shadow: #364547 0px 1px 2px 0px, #364547 0px 2px 6px 2px;
+}
+
+.comment-box .user {
+    display: flex;
+    width: min-content;
+}
+
+.comment-box .image img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.comment-box textarea {
+    background: transparent;
+    width: -webkit-fill-available;
+    height: 70px;
+    margin: 10px 0;
+    padding: 10px;
+    resize: inherit;
+    border-radius: 5px;
+    box-shadow: 0 0 0 0.5px #0003;
+}
+
+.comment-box.dark-mode textarea {
+    background: transparent;
+    box-shadow: 0 0 0 0.5px #364547;
+}
+
+.comment-box textarea:focus {
+    box-shadow: inset 0 0 0 1px #009cff;
+    outline: none;
+}
+
+.comment-box .comment-submit {
+    float: right;
+    padding: 6px 10px;
+    border: none;
+    background: #009cff;
+    color: #eee;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.comment-box .comment-submit:hover {
+    background: #0474b9;
+}
+
+
+
+/* @media (max-width: 600px) {
+    .profile-picture-comment {
+        width: 40px;
+        height: 40px;
+    }
+
+    .Discription-div {
+        height: 40px;
+    }
+
+    .comment-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .comment-icon-btn {        
+        padding: 5px;
+    }
+
+    .comment-discription-input {
+        margin-top: -8px;
+    }
+} */

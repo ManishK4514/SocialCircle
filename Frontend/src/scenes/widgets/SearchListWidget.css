@@ -1,0 +1,11 @@
+.searchList-container {
+    width: 80%;
+}
+
+@media (max-width: 1000px) {
+    .searchList-container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }    
+}

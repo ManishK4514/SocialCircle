@@ -1,0 +1,12 @@
+.help-contact-div{
+    margin: 2rem;
+    padding: "1.5rem 1.5rem 0.75rem 1.5rem";
+    color: #fff;
+    background-color: #FFFFFF;
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.help-contact-div.dark-mode{
+    background-color: #1A1A1A;
+}

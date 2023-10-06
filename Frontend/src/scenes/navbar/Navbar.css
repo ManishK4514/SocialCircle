@@ -1,0 +1,166 @@
+:root {
+    /* Primary colors */
+    --primary-dark: #00353f;
+    --primary-main: #00d5fa;
+    --primary-light: #99eefd;
+
+    /* Neutral colors */
+    --neutral-dark: #e0e0e0;
+    --neutral-main: #c2c2c2;
+    --neutral-medium-main: #a3a3a3;
+    --neutral-medium: #858585;
+    --neutral-light: #333333;
+
+    /* Background colors */
+    --background-default: #000000;
+    --background-alt: #1a1a1a;
+}
+
+/* Navbar */
+
+.Social-Name {
+    font-size: clamp(1rem, 2rem, 2.25rem);
+    color: var(--primary-main);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Social-Name:hover {
+    color: var(--primary-light);
+    cursor: "pointer";
+}
+
+.search-field {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentColor;
+    border: 0;
+    box-sizing: content-box;
+    background: none;
+    height: 1.5375em;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0;
+    width: 100%;
+    animation-name: mui-auto-fill-cancel;
+    animation-duration: 10ms;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    outline: none;
+    border: none;
+}
+
+.search-icon {
+    user-select: none;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+svg.search-icon {
+    width: 25px;
+    height: 35px;
+    color: #a3a3a3;
+}
+
+.search-field::placeholder {
+    color: #a3a3a3;
+}
+
+svg.nav-icon {
+    width: 25px;
+    height: 25px;
+}
+
+svg.nav-icon-search {
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+}
+
+svg.nav-icon:hover {
+    cursor: pointer;
+}
+
+.form-control {
+    display: inline-block;
+    position: relative;
+}
+
+.select {
+    background-color: #f3f3f3;
+    width: 150px;
+    border-radius: 0.25rem;
+    padding: 0.25rem 1rem;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+}
+
+.select:focus {
+    background-color: #f3f3f3;
+}
+
+.select::-ms-expand {
+    display: none;
+}
+
+.select option {
+    font-family: Arial, sans-serif;
+}
+
+.select-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.nav-icons-div {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    max-width: 100px;
+    min-width: 100px;
+    background-color: #ffffff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 30px 0px 0px 30px;
+    z-index: 1000;
+}
+
+.nav-icons-div.dark-mode {
+    background-color: var(--background-alt);
+}
+
+.social-logo {
+    width: 40px;
+    stroke: black;
+    border-radius: 50%;
+}
+
+.social-logo-div {
+    padding-top: 4px;
+    margin-right: 0.5rem;
+}
+
+.brand-logo-img-div {
+    display: flex;
+}
+
+.toggle-button-div {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .Social-Name {
+        font-size: 1.5rem;
+    }
+    .social-logo {
+        margin-top: -2px;
+        width: 30px;
+    }
+}
