@@ -17,6 +17,7 @@
 - [Tech Stack Used](#tech-stack-used)
 - [Installation](#installation)
 - [Preview](#preview)
+- [Contribution](#Contribution)
 - [License](#license)
 
 ![line]
@@ -65,10 +66,6 @@
 
 ![line]
 
-## Preview
-
-![line]
-
 ## Installation
 
 To set up and run the SocialCircle application locally, follow these steps:
@@ -85,7 +82,7 @@ To set up and run the SocialCircle application locally, follow these steps:
       cd ../Backend
       npm install
   
-- Configuration ⚙️
+- Configuration 
 
 Create a .env file in the server directory and provide the necessary environment variables, such as the MongoDB connection URL and the desired port number:
 
@@ -112,7 +109,12 @@ Please refer to the project's documentation or README files for detailed instruc
 
 ![line]
 
-## Contributing
+
+## Preview
+
+![line]
+
+## Contribution
 
 Contributions to the SocialCircle project are welcome! If you find any issues, have feature suggestions, or would like to contribute code improvements, please refer to the project's GitHub repository for guidelines on how to contribute.
 
