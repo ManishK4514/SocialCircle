@@ -1,0 +1,14 @@
+node_modules/
+.next/
+dist/
+build/
+target/
+.gradle/
+*.log
+.env
+.env.local
+.DS_Store
+*.zip
+*.exe
+*.deb
+vendor/
